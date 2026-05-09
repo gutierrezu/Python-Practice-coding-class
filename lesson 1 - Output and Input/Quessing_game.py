@@ -1,0 +1,6 @@
+print("let's see if you can guess THIS movie ")
+input("some say its good. ")
+input("others say its bad. ")
+input("but i think... ")
+input("its ugly. ")
+print("wow! congratulations. you won! and your prize is knowledege...yay")
