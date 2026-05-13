@@ -16,9 +16,13 @@ else:
         print("sure sure buddy")
     else:
         print("sure sure buddy")
+
+
     Moon_question_Two = input("what is the name of the closest moon ")
     if Moon_question_Two == "moon":
         print("yes!! point for you!! (i won't be counting tho)")
+
+
     Moon_question_Three = input("of what planet were the first moons discovered after the moon? ")
     if Moon_question_Three == ("saturn"):
         print("that correct!! that's three points? IDK")
@@ -26,9 +30,22 @@ else:
         print("nope. minus one point for you!!. ")
     
     print("Good job so far " + user_name + " lets see if you get this one.")
-    Moon_question_four = input("how big is charon?")
+
+
+    Moon_question_four = input("how big is charon? ")
     if Moon_question_four == ("half the size of pluto"):
         print("that is correct!! add one more point.")
     else:
-        print("should i dum these down for you? you loose one point")
+        print("should i dum these down for you? you loose one point more.")
+
+
+    Moon_question_five = input("what are the names of the moons of mars? ")
+    if Moon_question_five == "Phobos and Deimos" or Moon_question_five == "Deimos and Phobos":
+        print("good. that is correct!! another point for you ")
+    else:
+        print("oops. that was wrong. minus one point for you> i'm pretty sure you are in negtive points.")
+
+    Moon_question_five = input("is eros a moon?")
+    if Moon_question_five == "not its not a moon":
+        input("good job. what happened to eros?")
 
