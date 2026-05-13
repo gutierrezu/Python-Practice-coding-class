@@ -24,10 +24,11 @@ else:
         print("that correct!! that's three points? IDK")
     else:
         print("nope. minus one point for you!!. ")
+    
     print("Good job so far " + user_name + " lets see if you get this one.")
     Moon_question_four = input("how big is charon?")
     if Moon_question_four == ("half the size of pluto"):
         print("that is correct!! add one more point.")
     else:
-        print("should i dum these down for you? you loose one poin.t")
+        print("should i dum these down for you? you loose one point")
 
