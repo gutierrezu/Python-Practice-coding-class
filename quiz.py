@@ -59,14 +59,28 @@ else:
     
     Moon_question_seven = input("lets switch it up.")
     print("At least 80 moons orbit the planet Jupiter. T or F ")
-    if Moon_question_seven = "T":
+    if Moon_question_seven = "T" or Moon_question_seven = "t":
         print("that is correct.! another point for you")
     else:
         print("minus one point again")
     
     Moon_question_eight = input("Mercury and Venus are the only two planets in our solar system that do not have moons. T or F")
-    if Moon_question_eight = "T":
+    if Moon_question_eight = "T" or Moon_question_eight = "T":
         print("that is correct.! another point for you")
+    else:
+        print("minus one point again? this is getting repetitive")
+
+    Moon_question_nine = input("" \
+    "The footprints on the Moon from the NASA astronauts (circa Apollo 11) are expected to last for 100 million years." \
+    "T or F")
+    if Moon_question_nine = "T" or Moon_question_eight = "t":
+        print("corect again! one last question to go. plus one point.")
+    else:
+        print("minus one point again? this is getting repetitive")
+
+    Moon_question_ten = input("last one. We only ever see one side of the Moon.")
+    if Moon_question_ten = "T" or Moon_question_ten = "t":
+        print("corect again! one last question to go. plus one point.")
     else:
         print("minus one point again? this is getting repetitive")
 
