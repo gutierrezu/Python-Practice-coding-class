@@ -17,7 +17,7 @@ else:
     Moon_question_one = input("yes or no. have people truly been to the moon? ")
 # the answer to the question correct or not is by the if and else statements #
     if Moon_question_one == "yes":
-        print("sure sure buddy.")
+        print("sure sure buddy.")0
     else:
         print("sure sure buddy.")
 
@@ -50,6 +50,23 @@ else:
         print("oops. that was wrong. minus one point for you> i'm pretty sure you are in negtive points.")
 
     Moon_question_five = input("is eros a moon?")
-    if Moon_question_five == "not its not a moon":
-        input("good job. what happened to eros?")
+    if Moon_question_five == "its not a moon":
+        Moon_question_six = input("good job. in what year was eros discovered")
+        if Moon_question_six = "1898":
+            print("that is correct. plus one point")
+        else:
+            print("minus one point")
+    
+    Moon_question_seven = input("lets switch it up.")
+    print("At least 80 moons orbit the planet Jupiter. T or F ")
+    if Moon_question_seven = "T":
+        print("that is correct.! another point for you")
+    else:
+        print("minus one point again")
+    
+    Moon_question_eight = input("Mercury and Venus are the only two planets in our solar system that do not have moons. T or F")
+    if Moon_question_eight = "T":
+        print("that is correct.! another point for you")
+    else:
+        print("minus one point again? this is getting repetitive")
 
