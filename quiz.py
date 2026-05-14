@@ -17,9 +17,9 @@ else:
     Moon_question_one = input("yes or no. have people truly been to the moon? ")
 # the answer to the question correct or not is by the if and else statements #
     if Moon_question_one == "yes":
-        print("sure sure buddy")
+        print("sure sure buddy.")
     else:
-        print("sure sure buddy")
+        print("sure sure buddy.")
 
 # the second question. functions the same as the first #
     Moon_question_Two = input("what is the name of the closest moon ")
