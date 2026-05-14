@@ -15,5 +15,5 @@ print("The answer is Wellington. That was easy, wasn't it?")
 
 print("Final Question!")
 input("What is 3 x 6?")
-# print and other statemetns of the like aperently need to be spelled the same? #
+# print and other statements of the like aperently need to be spelled the same? #
 print("The answer is 18!")
