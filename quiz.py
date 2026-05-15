@@ -99,13 +99,16 @@ else:
 # this will trigger the print of a acai art #
 reward = input("this the real end of the quiz. Thank you for playing. " \
 "just input the amount of points you got and you'll recieve your complementary ASCII art")
-if reward = "10":
-    print("@  *  .  . *       *    .        .        .   *    ..
- @. /\ *     ###     .      .        .            *
- @ /  \  *  #####   .     *      *        *    .
- ]/ [] \  ######### *    .  *       .  //    .  *   .
- / [][] \###\#|#/###   ..    *     .  //  *  .  ..  *
- |  __  | ###\|/###  *    *  ___o |==// .      *   *
- |  |!  |  # }|{  #         /\  \/  //|\
- |  ||  |    }|{    ejm97  / /        | \
-                           ` `            ")
+
+if reward == "11":
+    print('''@  *  .  . *       *    .        .        .   *    ..
+    @. /\ *     ###     .      .        .            *
+    @ /  \  *  #####   .     *      *        *    .
+    ]/ [] \  ######### *    .  *       .  //    .  *   .
+    / [][] \###\#|#/###   ..    *     .  //  *  .  ..  *
+    |  __  | ###\|/###  *    *  ___o |==// .      *   *
+    |  |!  |  # }|{  #         /\  \/  //|\
+    |  ||  |    }|{    ejm97  / /        | \
+                               ` `        '  '
+    ''')
+
