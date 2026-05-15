@@ -17,7 +17,7 @@ else:
     Moon_question_one = input("yes or no. have people truly been to the moon? ")
 # the answer to the question correct or not is by the if and else statements #
     if Moon_question_one == "yes":
-        print("sure sure buddy.")0
+        print("sure sure buddy.")
     else:
         print("sure sure buddy.")
 
@@ -52,35 +52,60 @@ else:
     Moon_question_five = input("is eros a moon?")
     if Moon_question_five == "its not a moon":
         Moon_question_six = input("good job. in what year was eros discovered")
-        if Moon_question_six = "1898":
+        if Moon_question_six == "1898":
             print("that is correct. plus one point")
         else:
             print("minus one point")
-    
+        
+# true or false questions from here on. if answer is t or T. print correct. #
     Moon_question_seven = input("lets switch it up.")
     print("At least 80 moons orbit the planet Jupiter. T or F ")
-    if Moon_question_seven = "T" or Moon_question_seven = "t":
+    if Moon_question_seven == "T" or Moon_question_seven == "t":
         print("that is correct.! another point for you")
     else:
         print("minus one point again")
-    
+
+# so is the eighth #    
     Moon_question_eight = input("Mercury and Venus are the only two planets in our solar system that do not have moons. T or F")
-    if Moon_question_eight = "T" or Moon_question_eight = "T":
+    if Moon_question_eight == "T" or Moon_question_eight == "T":
         print("that is correct.! another point for you")
     else:
         print("minus one point again? this is getting repetitive")
 
+# so is the ninth #
     Moon_question_nine = input("" \
     "The footprints on the Moon from the NASA astronauts (circa Apollo 11) are expected to last for 100 million years." \
     "T or F")
-    if Moon_question_nine = "T" or Moon_question_eight = "t":
+    if Moon_question_nine == "T" or Moon_question_eight == "t":
         print("corect again! one last question to go. plus one point.")
     else:
         print("minus one point again? this is getting repetitive")
 
+# so is the tenth #
     Moon_question_ten = input("last one. We only ever see one side of the Moon.")
-    if Moon_question_ten = "T" or Moon_question_ten = "t":
+    if Moon_question_ten == "T" or Moon_question_ten == "t":
         print("corect again! one last question to go. plus one point.")
     else:
         print("minus one point again? this is getting repetitive")
 
+# so is the eleventh #
+    Moon_question_eleven = input("We only ever see one side of the Moon. T or F")
+    if Moon_question_eleven == "T" or Moon_question_ten == "t":
+        print("corect again! one last question to go. plus one point.")
+    else:
+        print("minus one point again? this is getting repetitive")
+
+# shoould the user type 11. which is the amount of points if he got them right. 
+# this will trigger the print of a acai art #
+reward = input("this the real end of the quiz. Thank you for playing. " \
+"just input the amount of points you got and you'll recieve your complementary ASCII art")
+if reward = "10":
+    print("@  *  .  . *       *    .        .        .   *    ..
+ @. /\ *     ###     .      .        .            *
+ @ /  \  *  #####   .     *      *        *    .
+ ]/ [] \  ######### *    .  *       .  //    .  *   .
+ / [][] \###\#|#/###   ..    *     .  //  *  .  ..  *
+ |  __  | ###\|/###  *    *  ___o |==// .      *   *
+ |  |!  |  # }|{  #         /\  \/  //|\
+ |  ||  |    }|{    ejm97  / /        | \
+                           ` `            ")
