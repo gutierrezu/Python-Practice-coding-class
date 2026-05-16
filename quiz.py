@@ -13,18 +13,21 @@ if user_name == ("dave"):
 # this is the introduction of quiz to the user. should the name value not be dave. #
 # Moon_question_one is the variable that refers to the number of the question.  #
 else:
-    print("hello " + user_name + ". this is a quiz dedicated to the moons of this solar system. get all the answers correct and you'l get acaii art as a reward")
+    print("hello " + user_name + ". this is a quiz dedicated to the moons of this solar system. get eleven points from correct answers correct and you'l get asci art as a reward."
+    " i warn you. this is a hard one.")
     Moon_question_one = input("yes or no. have people truly been to the moon? ")
 # the answer to the question correct or not is by the if and else statements #
-    if Moon_question_one == "yes":
+    if Moon_question_one == "yes" or Moon_question_one == "no":
         print("sure sure buddy.")
     else:
-        print("sure sure buddy.")
+        print("it Wasn't yes or no. so no point for you!!")
 
 # the second question. functions the same as the first #
     Moon_question_Two = input("what is the name of the closest moon ")
     if Moon_question_Two == "moon":
         print("yes!! point for you!! (i won't be counting tho)")
+    else:
+        print("the was wrong. minus one point.")
 
 # and the third #
     Moon_question_Three = input("of what planet were the first moons discovered after the moon? ")
