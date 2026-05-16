@@ -3,7 +3,7 @@
 print("what is your name user?")
 user_name = input("")
 if user_name == ("dave"):
-    print("I'm sorry, Dave. I'm afraid I can't do that.")
+    print("I'm sorry, "+ user_name + ". I'm afraid I can't do that.")
     print("but ill continue.")
     dactyl_question_one = input("dactyl is the moon of what.")
     if dactyl_question_one == ("asteroid 243 Ida") or dactyl_question_one ==("an asteroid"):
