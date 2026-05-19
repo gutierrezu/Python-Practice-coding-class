@@ -1,21 +1,31 @@
-#age = 5
-#print("he is " + str(age))
+# age = 5 #
+# print("he is " + str(age)) #
 
-#age = input("age? ")
-#print("birth year:", 2026 - int(age))
+# age = input("age? ") #
+# print("birth year:", 2026 - int(age)) #
 
-print(5 + 5 == 10)
+# print(5 + 5 == 10) #
 
-print(5+5==8)
+# print(5+5==8) #
 
-if 5 < 10:
-    pass
-print(5==5.0)
+#  if 5 < 10:
+#     pass #
+# print(5==5.0) #
 
-print(5+5 >= 10)
+# print(5+5 >= 10) #
 
-if 5 < 10:
-    print('code has been triggered')
+# if 5 < 10: #
+#     print('code has been triggered') #
+
+# if 5 < 10: #
+#     print('less than ten') #
+# print('10 or more') #
+
+
+if 20 < 10:
+    print('less than 10')
+else:
+    print("10 or more")
 
 
 
