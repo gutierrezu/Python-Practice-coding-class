@@ -62,8 +62,8 @@ else:
         
 # true or false questions from here on. if answer is t or T. print correct. #
     Moon_question_eight_starter = input("lets switch it up. ")
-    if Moon_question_eight_starter = ("ok")
-    print(Moon_question_eight)
+    if Moon_question_eight_starter == ("ok"):
+        print(Moon_question_eight)
     Moon_question_eight = input("At least 80 moons orbit the planet Jupiter. T or F ")
     if Moon_question_eight == "T" or Moon_question_seven == "t":
         print("that is correct.! another point for you")
