@@ -65,7 +65,7 @@ else:
     if Moon_question_eight_starter == ("ok"):
         print(Moon_question_eight)
     Moon_question_eight = input("At least 80 moons orbit the planet Jupiter. T or F ")
-    if Moon_question_eight == "T" or Moon_question_seven == "t":
+    if Moon_question_eight == "T" or Moon_question_eight == "t":
         print("that is correct.! another point for you")
     else:
         print("minus one point again")
@@ -114,6 +114,6 @@ if reward == "11":
     |  __  | ###\|/###  *    *  ___o |==// .      *   *
     |  |!  |  # }|{  #         /\  \/  //|\
     |  ||  |    }|{    ejm97  / /        | \
-                               ` `        '  '
+                              ` `        '  '
     ''')
 
