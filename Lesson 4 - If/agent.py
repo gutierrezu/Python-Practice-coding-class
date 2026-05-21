@@ -1,12 +1,13 @@
 ### Secret Agent Login
 # Create a login process for a secret agent
-
+login = lorem ipsum
 # Ask for the user's name and save it in a variable
-
+                    #greetings user. insert you code name.#
+users_name = input (".eman edoc uoy tresni .resu sgniteerg ")
 # Ask for the password and save it in a variable
-
+agents_pasword = input("wellcome agent" + users_name + "good to see you again. you. ")
 # Check if the password == 'Falcon'
-
+if agents_pasword == ("falcon")
     # Ouput that access has been granted and welcome user using their name
 
     # Ask for the user's age and save it in a variable
