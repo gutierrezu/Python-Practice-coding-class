@@ -8,7 +8,8 @@ if users_name == "bond" or users_name == "james" or users_name == "james bond" o
 # Ask for the password and save it in a variable
     agents_pasword = input("wellcome agent " + users_name + " good to see you again. just to comfirm that you are you. "
 "answer this ridle please. it will reveal the pass-code."
-" Africa is where I fly, in open lands and desert sky. Slender build and darkened eye, I’m fierce and swift when prey is nigh. "
+" Africa is where I fly, in open lands and desert sky.\n"
+" Slender build and darkened eye, I’m fierce and swift when prey is nigh. "
 "what am i? ")
 # Check if the password == 'Falcon'
     if agents_pasword == ("a falcon"):
@@ -37,34 +38,30 @@ if users_name == "bond" or users_name == "james" or users_name == "james bond" o
     "[ the truth about abe lincoln ]\n" \
     "[ what cartoons is short for  ]\n" \
     "[ how to defeat the british ]\n" \
-    "type Washington Monument or abe lincoln or what cartoons is short for to access. ")
+    "\n" \
+    "type Washington Monument or abe lincoln or what cartoons is short for to access.\n"
+    "\n"
+    " ")
     if terminal_options == ("Washington Monument") or terminal_options == ("the truth of the Washington Monument") :
         print("the Washington Monument is the horn of what remains of THE LINCLOPS." \
         "The massive bellowing Cyclops that Lincoln rode into battle to win the Civil war. ")
 
     elif terminal_options == ("the truth about abe lincoln") or terminal_options == ("abe lincoln"):
         print("Abraham Lincoln wore that hat so nobody could see [CLASSIFIED] sitting on his head, pulling his hair, and controling his body. ")
-        return_to_options = input("return to option select. type Y ")
-        if return_to_options == ("Y"):
-            print (terminal_options)
+        print(terminal_options)
+
     
     elif terminal_options == ("what cartoons is short for"):
         print("They were called ""cartoons,"" short for carcinogenic toons, since they were painted on cancer-causing celluloid. ")
-        return_to_options = input("return to option select. type Y ")
-        if return_to_options == ("Y"):
-            print (terminal_options)
+
     
     elif terminal_options == ("how to defeat the british"):
         print("Simply destroy their tea, the secret to their power! (British blood is 80% tea--throwing away tea in front of them is like shooting a werewolf with a silver bullet). ")
-        return_to_options = input("return to option select. type Y ")
-        if return_to_options == ("Y"):
-            print (terminal_options)
+       
     
     else:
         print("that is not available.")
-        return_to_options = input("return to option select. type Y")
-        if return_to_options == ("Y"):
-            print (terminal_options)
+      
 else:
     print("you are not a real spy." \
     " you may leave this terminal immediately ")
