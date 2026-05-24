@@ -22,10 +22,20 @@
 # print('10 or more') #
 
 
-if 20 < 10:
-    print('less than 10')
-else:
-    print("10 or more")
+# if 20 < 10: #
+#    print('less than 10') #
+# else: #
+#    print("10 or more") #
+print('hello'.upper())
+
+print('HELLO'.lower())
+
+if 'HELLO' == 'hello':
+    print('The same!')
+
+
+if 'HELLO'.lower() == 'hello':
+    print('The same!')
 
 
 
