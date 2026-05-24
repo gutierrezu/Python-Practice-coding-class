@@ -32,7 +32,39 @@ if users_name == "bond" or users_name == "james" or users_name == "james bond" o
     # If their age is 18 or over, tell them they are a Field Agent
     else:
         print("you are a field agent. you are athorized.")
-    terminal_options = input("this terminal has only access to: []")
+    terminal_options = input("this terminal has analyzed you clearance level and with grant you only access to: "
+    "[ the truth of the Washington Monument ]" \
+    "[ the truth about abe lincoln ] " \
+    "[ what cartoons is short for  ]" \
+    "[ how to defeat the british ]" \
+    "type Washington Monument or abe lincoln or what cartoons is short for to access.")
+    if terminal_options == ("Washington Monument") or terminal_options == ("the truth of the Washington Monument") :
+        print("the Washington Monument is the horn of what remains of THE LINCLOPS." \
+        "The massive bellowing Cyclops that Lincoln rode into battle to win the Civil war.")
+
+    elif terminal_options == ("the truth about abe lincoln") or terminal_options == ("abe lincoln"):
+        print("Abraham Lincoln wore that hat so nobody could see [CLASSIFIED] sitting on his head, pulling his hair, and controling his body.")
+        return_to_options = input("return to option select. type Y")
+        if return_to_options == ("Y"):
+            print (terminal_options)
+    
+    elif terminal_options == ("what cartoons is short for"):
+        print("They were called ""cartoons,"" short for carcinogenic toons, since they were painted on cancer-causing celluloid.")
+        return_to_options = input("return to option select. type Y")
+        if return_to_options == ("Y"):
+            print (terminal_options)
+    
+    elif terminal_options == ("how to defeat the british"):
+        print("Simply destroy their tea, the secret to their power! (British blood is 80% tea--throwing away tea in front of them is like shooting a werewolf with a silver bullet).")
+        return_to_options = input("return to option select. type Y")
+        if return_to_options == ("Y"):
+            print (terminal_options)
+    
+    else:
+        print("that is not available.")
+        return_to_options = input("return to option select. type Y")
+        if return_to_options == ("Y"):
+            print (terminal_options)
 else:
     print("you are not a real spy." \
     " you may leave this terminal immediately ")
