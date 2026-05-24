@@ -12,7 +12,7 @@ if users_name == "bond" or users_name == "james" or users_name == "james bond" o
 " Slender build and darkened eye, I’m fierce and swift when prey is nigh. "
 "what am i? ")
 # Check if the password == 'Falcon'
-    if agents_pasword == ("a falcon"):
+    if agents_pasword == ("a falcon") or agents_pasword == ("falcon"):
     # Ouput that access has been granted and welcome user using their name
         print("yes. it is truely you. "+ users_name +" welcome to the terinal. a few more segurity to go throught. ")
     else:
@@ -42,25 +42,29 @@ if users_name == "bond" or users_name == "james" or users_name == "james bond" o
     "type Washington Monument or abe lincoln or what cartoons is short for to access.\n"
     "\n"
     " ")
-    if terminal_options == ("Washington Monument") or terminal_options == ("the truth of the Washington Monument") :
-        print("the Washington Monument is the horn of what remains of THE LINCLOPS." \
-        "The massive bellowing Cyclops that Lincoln rode into battle to win the Civil war. ")
+    while terminal_options == "Y":
+    
+        terminal_options = input("want to go back to terminal options? type Y")
+        if terminal_options == ("Washington Monument") or terminal_options == ("the truth of the Washington Monument") :
+            print("the Washington Monument is the horn of what remains of THE LINCLOPS." \
+            "The massive bellowing Cyclops that Lincoln rode into battle to win the Civil war. ")
 
-    elif terminal_options == ("the truth about abe lincoln") or terminal_options == ("abe lincoln"):
-        print("Abraham Lincoln wore that hat so nobody could see [CLASSIFIED] sitting on his head, pulling his hair, and controling his body. ")
-        print(terminal_options)
+        elif terminal_options == ("the truth about abe lincoln") or terminal_options == ("abe lincoln"):
+            print("Abraham Lincoln wore that hat so nobody could see [CLASSIFIED] sitting on his head, pulling his hair, and controling his body. ")
+            print(terminal_options)
+        
 
     
-    elif terminal_options == ("what cartoons is short for"):
-        print("They were called ""cartoons,"" short for carcinogenic toons, since they were painted on cancer-causing celluloid. ")
+        elif terminal_options == ("what cartoons is short for"):
+            print("They were called ""cartoons,"" short for carcinogenic toons, since they were painted on cancer-causing celluloid. ")
 
     
-    elif terminal_options == ("how to defeat the british"):
-        print("Simply destroy their tea, the secret to their power! (British blood is 80% tea--throwing away tea in front of them is like shooting a werewolf with a silver bullet). ")
+        elif terminal_options == ("how to defeat the british"):
+            print("Simply destroy their tea, the secret to their power! (British blood is 80% tea--throwing away tea in front of them is like shooting a werewolf with a silver bullet). ")
        
     
-    else:
-        print("that is not available.")
+        else:
+            print("that is not available.")
       
 else:
     print("you are not a real spy." \
