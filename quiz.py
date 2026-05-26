@@ -24,7 +24,7 @@ else:
 
 # the second question. functions the same as the first #
     Moon_question_Two = input("what is the name of the closest moon ")
-    if Moon_question_Two == "moon":
+    if Moon_question_Two == ("moon") or Moon_question_Two == ("luna"):
         print("yes!! point for you!! (i won't be counting tho)")
     else:
         print("the was wrong. minus one point.")
@@ -62,10 +62,11 @@ else:
         
 # true or false questions from here on. if answer is t or T. print correct. #
     Moon_question_eight_starter = input("lets switch it up. ")
-    if Moon_question_eight_starter == ("ok"):
-        print(Moon_question_eight)
     Moon_question_eight = input("At least 80 moons orbit the planet Jupiter. T or F ")
-    if Moon_question_eight == "T" or Moon_question_eight == "t":
+    if Moon_question_eight_starter == ("ok") or Moon_question_eight_starter == ("yes") or Moon_question_eight_starter == ("yeah"):
+        print(Moon_question_eight)
+    
+    elif Moon_question_eight == "T" or Moon_question_eight == "t":
         print("that is correct.! another point for you")
     else:
         print("minus one point again")
