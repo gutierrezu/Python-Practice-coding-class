@@ -1,10 +1,13 @@
-# obtains the name of the user. then if the user's name happens to be or inputs dave. the name dave will trigger a line of easter egg questions. if the name is anything but dave. #
-# the program will use non easter egg questions #
+# name of the user saved in user-name #
 print("what is your name user?")
 user_name = input("")
+# if user's name is dave. #
+# an easter egg will trigger. #
 if user_name == ("dave"):
+# easter egg. #
     print("I'm sorry, "+ user_name + ". I'm afraid I can't do that.")
     print("but ill continue.")
+# hidden question . #
     dactyl_question_one = input("dactyl is the moon of what. ")
     if dactyl_question_one == ("asteroid 243 Ida") or dactyl_question_one ==("an asteroid"):
         print("good job. test is now over")
