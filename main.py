@@ -26,16 +26,18 @@
 #    print('less than 10') #
 # else: #
 #    print("10 or more") #
-print('hello'.upper())
+# print('hello'.upper()) #
 
-print('HELLO'.lower())
+# print('HELLO'.lower()) #
 
-if 'HELLO' == 'hello':
-    print('The same!')
-
-
-if 'HELLO'.lower() == 'hello':
-    print('The same!')
+# if 'HELLO' == 'hello': #
+#     print('The same!') #
 
 
+# if 'HELLO'.lower() == 'hello': #
+#     print('The same!') #
+
+name = 'Paul'
+age = 15
+print(f'{name} is {age}')
 
