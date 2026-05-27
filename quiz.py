@@ -1,11 +1,11 @@
 # obtains the name of the user. then if the user's name happens to be or inputs dave. the name dave will trigger a line of easter egg questions. if the name is anything but dave. #
-# the program will use the regular questions #
+# the program will use non easter egg questions #
 print("what is your name user?")
 user_name = input("")
 if user_name == ("dave"):
     print("I'm sorry, "+ user_name + ". I'm afraid I can't do that.")
     print("but ill continue.")
-    dactyl_question_one = input("dactyl is the moon of what.")
+    dactyl_question_one = input("dactyl is the moon of what. ")
     if dactyl_question_one == ("asteroid 243 Ida") or dactyl_question_one ==("an asteroid"):
         print("good job. test is now over")
     else:
@@ -13,7 +13,8 @@ if user_name == ("dave"):
 # this is the introduction of quiz to the user. should the name value not be dave. #
 # Moon_question_one is the variable that refers to the number of the question.  #
 else:
-    print("hello " + user_name + ". this is a quiz dedicated to the moons of this solar system. get eleven points from correct answers correct and you'l get asci art as a reward."
+    print("hello " + user_name + ". this is a quiz dedicated to the moons of this solar system. \n "
+    "get atleast eleven points from correct answers and you'l get asci art as a reward."
     " i warn you. this is a hard one.")
     Moon_question_one = input("yes or no. have people truly been to the moon? ")
 # the answer to the question correct or not is by the if and else statements #
@@ -50,7 +51,7 @@ else:
     if Moon_question_five == "Phobos and Deimos" or Moon_question_five == "Deimos and Phobos":
         print("good. that is correct!! another point for you ")
     else:
-        print("oops. that was wrong. minus one point for you> i'm pretty sure you are in negtive points.")
+        print("oops. that was wrong. maybe you spelt it wrong. minus one point for you> i'm pretty sure you are in negtive points.")
 
     Moon_question_six = input("is eros a moon? ")
     if Moon_question_six == "its not a moon" or Moon_question_six == ("no"):
@@ -101,12 +102,13 @@ else:
     else:
         print("minus one point again? this is getting repetitive")
 
-# shoould the user type 11. which is the amount of points if he got them right. 
+# should the user get atleast 11 points. wt right. 
 # this will trigger the print of a acai art #
-reward = input("this the real end of the quiz. Thank you for playing. " \
-"just input the amount of points you got and you'll recieve your complementary ASCII art")
+reward = input("this the real end of the quiz. Thank you for playing. \n" \
+"just input the amount of points.\n it must be at least 11 " \
+"and you'll recieve your complementary ASCII art. " + user_name + "\n " )
 
-if reward == "11":
+if int(reward) >= 11:
     print('''@  *  .  . *       *    .        .        .   *    ..
     @. /\ *     ###     .      .        .            *
     @ /  \  *  #####   .     *      *        *    .
@@ -117,4 +119,9 @@ if reward == "11":
     |  ||  |    }|{    ejm97  / /        | \
                               ` `        '  '
     ''')
+elif int(reward) > 8 and int(reward) < 14:
+    print("no close enough. you got close tho. [KNOWLEDGE CHECK FINALIZED] ")
+
+else:
+    print("good bye. nice try. you finished the quiz.")
 
