@@ -53,7 +53,7 @@ else:
         print("oops. that was wrong. minus one point for you> i'm pretty sure you are in negtive points.")
 
     Moon_question_six = input("is eros a moon? ")
-    if Moon_question_six == "its not a moon":
+    if Moon_question_six == "its not a moon" or Moon_question_six == ("no"):
         Moon_question_seven = input("good job. in what year was eros discovered ")
         if Moon_question_seven == "1898":
             print("that is correct. plus one point")
@@ -61,7 +61,7 @@ else:
             print("minus one point")
         
 # true or false questions from here on. if answer is t or T. print correct. #
-    Moon_question_eight_starter = input("lets switch it up. ")
+    Moon_question_eight_starter = input("want to switch it up? ")
     Moon_question_eight = input("At least 80 moons orbit the planet Jupiter. T or F ")
     if Moon_question_eight_starter == ("ok") or Moon_question_eight_starter == ("yes") or Moon_question_eight_starter == ("yeah"):
         print(Moon_question_eight)
