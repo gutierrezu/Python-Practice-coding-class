@@ -66,13 +66,14 @@ else:
         
 # true or false questions from here on. if answer is t or T. print correct. #
     Moon_question_eight_starter = input("want to switch it up? ")
-    Moon_question_eight = input("At least 80 moons orbit the planet Jupiter. T or F ")
+    Moon_question_eight = input("At least 80 moons orbit the planet Jupiter. T or F \n i recommend you turn on CAPS ")
     if Moon_question_eight_starter == ("ok") or Moon_question_eight_starter == ("yes") or Moon_question_eight_starter == ("yeah"):
         print(Moon_question_eight)
     
     elif Moon_question_eight == "T" or Moon_question_eight == "t":
         print("that is correct.! another point for you")
-    else:
+    
+    elif Moon_question_eight == ("f") or Moon_question_eight == ("F"):
         print("minus one point again")
 
 # so is the eighth #    
@@ -122,7 +123,7 @@ if int(reward) >= 11:
     |  ||  |    }|{    ejm97  / /        | \
                               ` `        '  '
     ''')
-elif int(reward) > 8 and int(reward) < 14:
+elif int(reward) > 8 or int(reward) < 14:
     print("no close enough. you got close tho. [KNOWLEDGE CHECK FINALIZED] ")
 
 else:
