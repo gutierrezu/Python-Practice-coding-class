@@ -108,13 +108,19 @@ else:
 
 # should the user get atleast 11 points. wt right. 
 # this will trigger the print of a acai art #
-reward = input("this the real end of the quiz. Thank you for playing. \n" \
+reward_amount = input("this the real end of the quiz. Thank you for playing. \n" \
 "just input the amount of points.\n it must be at least 11 " \
 "and you'll recieve your complementary ASCII art. " + user_name + "\n " )
 
-if int(reward) >= 11:
+
+
+
+
+if not isinstance (int(reward_amount), int):
+    print("write a number")
+if  isinstance (int(reward_amount), int):
     print('''@  *  .  . *       *    .        .        .   *    ..
-    @. /\ *     ###     .      .        .            *
+    @. /\ *     ###     .      .        .            *d
     @ /  \  *  #####   .     *      *        *    .
     ]/ [] \  ######### *    .  *       .  //    .  *   .
     / [][] \###\#|#/###   ..    *     .  //  *  .  ..  *
@@ -123,9 +129,21 @@ if int(reward) >= 11:
     |  ||  |    }|{    ejm97  / /        | \
                               ` `        '  '
     ''')
-elif int(reward) > 8 or int(reward) < 14:
-    print("no close enough. you got close tho. [KNOWLEDGE CHECK FINALIZED] ")
 
-else:
-    print("good bye. nice try. you finished the quiz.")
+# if (reward_amount) >= 11:
+#     print('''@  *  .  . *       *    .        .        .   *    ..
+#     @. /\ *     ###     .      .        .            *
+#     @ /  \  *  #####   .     *      *        *    .
+#     ]/ [] \  ######### *    .  *       .  //    .  *   .
+#     / [][] \###\#|#/###   ..    *     .  //  *  .  ..  *
+#     |  __  | ###\|/###  *    *  ___o |==// .      *   *
+#     |  |!  |  # }|{  #         /\  \/  //|\
+#     |  ||  |    }|{    ejm97  / /        | \
+#                               ` `        '  '
+#     ''')
+# elif (reward_amount) > 8 or (reward_amount) < 14:
+#     print("no close enough. you got close tho. [KNOWLEDGE CHECK FINALIZED] ")
+
+# else:
+#     print("good bye. nice try. you finished the quiz.")
 
