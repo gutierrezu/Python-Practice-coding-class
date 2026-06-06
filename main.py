@@ -38,15 +38,18 @@
 #     print('The same!') #
 
 
-# guess = input('What’s the password?') #
-# print('Checking password is a match…') #
-# while guess != 'secret': #
-#     guess = input('Try again ') #
-#     print('Checking password is a match…') #
-# input('Welcome!') #
+guess = input('What’s the password?') 
+print('Checking password is a match…') 
+while guess != 'secret': #
+     guess = input('Try again ') #
+     print('Checking password is a match…') #
+input('Welcome!') 
 
 
-
+# x = 0 #
+# while x < 10: #
+#     print(x) #
+#     x += 1 #
 
 # name = 'Paul' #
 # age = 15 #

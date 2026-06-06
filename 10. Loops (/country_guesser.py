@@ -4,20 +4,21 @@
 
 # VALUES
 # TODO: Create a variable to store the correct country (e.g., "Italy").
-right_country = input("Wellcome to the adivinator de países. quess a país (country) ")
+right_guess = "Vatican City"
+guessed_country = input("Wellcome to the adivinator de países. guess a país (country) \n " + "hint: it is quite small. " )
 # TODO: Create a variable to keep track of the user's current guess. 
-current_quess = ""
+current_guess = ""
 #       (Hint: Start it as an empty string "" so the loop runs at least once!)
 
 
 # LOOP
 # TODO: Start a 'while' loop. 
-while current_quess != "Vatican City":
+while guessed_country != right_guess:
 
-    print("hfjdkhfjd")
-if current_quess != "vatican City":
-    print("S")    
-    current_quess = input("try again.")
+    print("incorrect answer. enjoy your short time loop!")
+if guessed_country != "Vatican City":
+    print("S")
+    guessed_country = input("try again.")
 print("correct!")
 #       The loop should keep running AS LONG AS the user's guess 
 #       is NOT EQUAL to the correct country.
