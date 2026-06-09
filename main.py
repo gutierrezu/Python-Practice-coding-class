@@ -38,12 +38,33 @@
 #     print('The same!') #
 
 
-guess = input('What’s the password?') 
-print('Checking password is a match…') 
-while guess != 'secret': #
-     guess = input('Try again ') #
-     print('Checking password is a match…') #
-input('Welcome!') 
+# user_input = "" #
+# while user_input != "exit": #
+#     user_input = input() #
+
+# user_input = 'idk' #
+# try: #
+#      num = int(user_input) #
+#      print(f'You picked {num}') #
+# except: #
+# 	print(f'{user_input} is not a number!') #
+
+# shopping_list = ['apples','plums','pizza'] #
+# print(shopping_list[2]) #
+
+# shopping_list = ['apples','plums','pizza'] #
+# print(shopping_list[3]) # 
+
+import random
+while shopping_list == ['apples','plums','pizza']:
+     print(shopping_list[random.randint(0,1)])
+
+# guess = input('What’s the password?') #
+# print('Checking password is a match…') #
+# while guess != 'secret': #
+#      guess = input('Try again ') #
+#      print('Checking password is a match…') #
+# input('Welcome!') #
 
 
 # x = 0 #

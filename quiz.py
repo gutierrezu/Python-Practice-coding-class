@@ -109,7 +109,7 @@ else:
 # should the user get atleast 11 points. wt right. 
 # this will trigger the print of a acai art #
 reward_amount = input("this the real end of the quiz. Thank you for playing. \n" \
-"just input the amount of points.\n it must be at least 11 " \
+"just input the amount of points.\n it  " \
 "and you'll recieve your complementary ASCII art. " + user_name + "\n " )
 
 
