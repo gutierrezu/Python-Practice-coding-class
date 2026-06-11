@@ -55,9 +55,22 @@
 # shopping_list = ['apples','plums','pizza'] #
 # print(shopping_list[3]) # 
 
-import random
-while shopping_list == ['apples','plums','pizza']:
-     print(shopping_list[random.randint(0,1)])
+# import random #
+# shopping_list = ['apples','plums','pizza'] #
+# print(shopping_list[random.randint(0,)]) #
+
+shopping_list = ['apples', 'oranges','melons']
+
+print(shopping_list)
+
+#shopping_list.append('carrots')
+#shopping_list.remove('oranges')
+#print(shopping_list)
+#shopping_list.pop(0)
+#shopping_list.insert('apples', 1)
+#print(shopping_list)
+#shopping_list.sort()
+#print(shopping_list)
 
 # guess = input('What’s the password?') #
 # print('Checking password is a match…') #
