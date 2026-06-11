@@ -61,8 +61,6 @@
 
 shopping_list = ['apples', 'oranges','melons']
 
-print(shopping_list)
-
 #shopping_list.append('carrots')
 #shopping_list.remove('oranges')
 #print(shopping_list)
@@ -70,7 +68,9 @@ print(shopping_list)
 #shopping_list.insert('apples', 1)
 #print(shopping_list)
 #shopping_list.sort()
-#print(shopping_list)
+print(shopping_list)
+
+print(shopping_list)
 
 # guess = input('What’s the password?') #
 # print('Checking password is a match…') #
