@@ -114,9 +114,33 @@
 # for i in range(10): #
 #     print('Hello') #
 
-foods = ['apples','carrots','muesli']
-for i in range(len(foods)):
-    print(f'{i+1}.{foods[i]}')
+#while player_lives > 0:
+#    action = input("Action: ")
+#    if action == "invalid":
+#        print("Invalid move, try again.")
+#        pass
+
+# options_to_choose = ["a", "b", "c"] #
+# user_guess = input("Choose a, b, or c: ").lower().strip() #
+# if user_guess == options_to_choose:#
+#     print("Valid selection!") #
+
+first_guess = input()
+while first_guess in range(6):
+    print("thats not right")
+
+
+#after_school_activities = [ "complete digi homework", "finish history homework", "go to club"]
+
+#after_school_activities.remove('complete digi homework')
+#print(after_school_activities)
+
+
+
+
+# foods = ['apples','carrots','muesli'] #
+# for i in range(len(foods)): #
+#     print(f'{i+1}.{foods[i]}') #
 
 
 # shopping_list = ['apples','plums','pizza'] #

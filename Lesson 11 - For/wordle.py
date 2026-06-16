@@ -14,16 +14,22 @@ play = True
 
 # INTRODUCTION
 # TODO Tell your user how to play wordle (make sure they know they must input 5 letter words)
-print("To play Wordle, you have six attempts to guess a hidden five-letter English word. After each guess.")
 # MAIN
 # TODO Create a while loop that runs if play is true
-random_word = random.choice(word_list)
+random_word = random.choice(["closed", "jewel", "chuck", "plaza", "cubby"])
 user_input = ("")
-    # TODO Create word variable and store a random word from your list (using random.choice)
 while play == True:
-    print(random_word)
+    print("To play Wordle, you have six attempts to guess a hidden five-letter English word. After each guess.")
+    
+    # TODO Create word variable and store a random word from your list (using random.choice)
+random_choice = random.choice(word_list)
+user_input = ("")
     # USER INPUT
     # TODO Get user's first guess and save it into a variable
+first_guess = input()
+for first_guess in word_list:
+    print("thats not right")
+    
     # TODO Create a while loop if the guess is not 5 characters long
         # TODO Tell them it's not 5 letters and to try again
 
