@@ -124,10 +124,23 @@
 # user_guess = input("Choose a, b, or c: ").lower().strip() #
 # if user_guess == options_to_choose:#
 #     print("Valid selection!") #
+fruits = ["apple", "banana", "cherry"]
+while fruits == ["apple", "banana", "cherry"]
 
-first_guess = input()
-while first_guess in range(6):
-    print("thats not right")
+:
+    answer = input("name a fruit ")
+
+
+    if answer in fruits:
+        print("yes")
+    else:
+        print("no")
+
+
+
+#first_guess = input()
+#while first_guess in range(6):
+#    print("thats not right")
 
 
 #after_school_activities = [ "complete digi homework", "finish history homework", "go to club"]
