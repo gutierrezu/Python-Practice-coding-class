@@ -1,9 +1,9 @@
 # age = 5 #
 # print("he is " + str(age)) #
-import math
+# import math #
 
-diameter = int(input("what is the radius? "))
-print(f"the circumference is {2 * math.pi * diameter }")
+# diameter = int(input("what is the radius? ")) #
+# print(f"the circumference is {2 * math.pi * diameter }") #
     
 # age = input("age? ") #
 # print("birth year:", 2026 - int(age)) #
@@ -150,7 +150,36 @@ print(f"the circumference is {2 * math.pi * diameter }")
 #after_school_activities.remove('complete digi homework')
 #print(after_school_activities)
 
+# def calculate_area(x, y): #
+#     print(f"Area : {x * y}") #
+# 
+# calculate_area(x, y) #
 
+# def repeat_message(message, times): #
+#     for i in range(times): #
+#         print(message) #
+# 
+# repeat_message("Hello", 5) #
+
+# def get_number(): #
+#     while True: #
+#         num = input("Give me a number.") #
+#         try: #
+#             num = int(num) #
+#             return #
+#         except: #
+#             print("That's not a number") #
+#  #
+# num = get_number() #
+
+def check_play():
+    play = input("Do you want to play again")
+    if play.lower() in ["y", "yes"]:
+        return True
+    else:
+        return False
+
+check_play()
 
 
 # foods = ['apples','carrots','muesli'] #
