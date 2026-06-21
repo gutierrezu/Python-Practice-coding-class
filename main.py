@@ -1,6 +1,10 @@
 # age = 5 #
 # print("he is " + str(age)) #
+import math
 
+diameter = int(input("what is the radius? "))
+print(f"the circumference is {2 * math.pi * diameter }")
+    
 # age = input("age? ") #
 # print("birth year:", 2026 - int(age)) #
 
@@ -124,17 +128,15 @@
 # user_guess = input("Choose a, b, or c: ").lower().strip() #
 # if user_guess == options_to_choose:#
 #     print("Valid selection!") #
-fruits = ["apple", "banana", "cherry"]
-while fruits == ["apple", "banana", "cherry"]
-
-:
-    answer = input("name a fruit ")
+# fruits = ["apple", "banana", "cherry"] #
+# while fruits == ["apple", "banana", "cherry"]: #
+#     answer = input("name a fruit ") #
 
 
-    if answer in fruits:
-        print("yes")
-    else:
-        print("no")
+#     if answer in fruits:
+#         print("yes")
+#     else:
+#         print("no")
 
 
 
