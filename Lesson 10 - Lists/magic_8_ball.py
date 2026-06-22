@@ -38,7 +38,7 @@ while complex_responces == ["yes. ", "no. ", "It is certain. ", "It is decidedly
     # MY NOTE- if you want to call complex responces. change the name and increase randint to 0, 20 #
 
         print(complex_responces[random.randint(0,20)] + exit_responce)
-s
+
     # TODO: Ask the user to type in a Yes/No question about their future and save it in a variable.
     #       (Or tell them to type 'quit' to leave).
     

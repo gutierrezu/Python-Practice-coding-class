@@ -173,13 +173,15 @@
 # num = get_number() #
 
 def check_play():
-    play = input("Do you want to play again")
+    play = input("Do you want to play again ")
     if play.lower() in ["y", "yes"]:
         return True
     else:
         return False
 
 check_play()
+
+
 
 
 # foods = ['apples','carrots','muesli'] #
