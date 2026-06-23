@@ -172,23 +172,39 @@
 #  #
 # num = get_number() #
 
-def check_play():
-    play = input("Do you want to play again ")
-    if play.lower() in ["y", "yes"]:
-        return True
+# def check_play(): #
+#     play = input("Do you want to play again ") #
+#     if play.lower() in ["y", "yes"]: #
+#         return True #
+#     else: # #
+#         return False #
+#  #
+# check_play() #
+
+def calculate_areof_rectangle():
+    area = width_input * length_input
+    w3idth_input = int(input("to calculate the area of your rectange." \
+    "please provide the width of this rectangle."))
+    if width_input == int:
+        print("thank you.")
+    elif width_input == float:
+        print("thank you.")
     else:
-        return False
-
-check_play()
-
-
-
+        print("the width value you inputed is not a number.")
+    length_input = int(input("now input the length of the rectangle"))
+    if length_input == int:
+        print ("thank you")
+    elif length_input == float:
+        print("thank you.")
+    else:
+        print("that is not a number")
+    return area
 
 # foods = ['apples','carrots','muesli'] #
 # for i in range(len(foods)): #
 #     print(f'{i+1}.{foods[i]}') #
 
-
+calculate_areof_rectangle()
 # shopping_list = ['apples','plums','pizza'] #
 # print('apples' in shopping_list) #
 
