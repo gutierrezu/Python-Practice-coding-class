@@ -1,6 +1,15 @@
 # name of the user saved in user-name #
 print("what is your name user?")
+  users_points = 0
 user_name = input("")
+def users_score():
+  
+    users_points =+ 1
+    users_point_score = print("you have "+ str(users_points) +" points!!")
+
+    print(users_points)
+    
+
 # if user's name is dave. #
 # an easter egg will trigger. #
 if user_name == ("dave"):
@@ -10,6 +19,7 @@ if user_name == ("dave"):
 # hidden question . #
     dactyl_question_one = input("dactyl is the moon of what. ")
     if dactyl_question_one == ("asteroid 243 Ida") or dactyl_question_one ==("an asteroid"):
+        users_score()
         print("good job. test is now over")
     else:
         print("It can only be attributable to human error.")
@@ -109,7 +119,7 @@ else:
 # should the user get atleast 11 points. wt right. 
 # this will trigger the print of a acai art #
 reward_amount = input("this the real end of the quiz. Thank you for playing. \n" \
-"just input the amount of points.\n it  " \
+"just input the amount of points.\n it must be at least 11 " \
 "and you'll recieve your complementary ASCII art. " + user_name + "\n " )
 
 
